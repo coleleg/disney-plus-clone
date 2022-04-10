@@ -46,6 +46,7 @@ const Nav = styled.div`
 
 const Logo = styled.img`
     width: 80px;
+    cursor: pointer;
 `;
 
 const NavMenu = styled.div`
