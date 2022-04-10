@@ -26,6 +26,13 @@ function Detail() {
                     <img src="/images/group-icon.png" />
                 </GroupBtn>
             </Controls>
+            <SubTitle>
+                2018 7m Family, Fantasy, Kids, Animation
+                <Description>
+                lorem ipsum blah blah blah hlab zicky wow bang pow boom onomotopeia wabash crack split bop bash
+                lorem ipsum blah blah blah hlab zicky wow bang pow boom onomotopeia wabash crack split bop bash
+                </Description>
+            </SubTitle>
         </Container>
 
     )
@@ -34,7 +41,7 @@ function Detail() {
 
 const Container = styled.div`
     min-height: calc(100vh - 70px);
-    padding: 0 calc (5vw + 5 px);
+    padding: 0 calc(3.5vw + 5px);
     position: relative;
 `;
 
@@ -81,7 +88,6 @@ const PlayBtn = styled.button`
     font-size: 15px;
     padding: 0px 24px;
     margin-right: 22px;
-    margin-left: 22px;
     display: flex;
     align-items: center;
     height: 56px;
@@ -97,6 +103,7 @@ const PlayBtn = styled.button`
 
 const TrailerBtn = styled(PlayBtn)`
     background: rgb(0, 0, 0, 0.3);
+    margin-left: 0;
     border: 1px solid rgb(249, 249, 249);
     color: rgb(249, 249, 249);
 `;
@@ -125,6 +132,20 @@ const AddBtn = styled.button`
 
 const GroupBtn = styled(AddBtn)`
     background: rgb(0,0,0);
+`;
+
+const SubTitle = styled.div`
+    color: rgb(249, 249, 249);
+    font-size: 15px;
+    min-height: 20px;
+    margin-top: 26px;
+`;
+
+const Description = styled.div`
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(249, 249, 249);
 `;
 
 export default Detail;
