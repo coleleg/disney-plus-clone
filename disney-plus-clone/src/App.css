@@ -1,2 +1,6 @@
 
-
+/* makes slider img border more aesthetic
+"the witdth contains the border" */
+* {
+  box-sizing: border-box;
+}
