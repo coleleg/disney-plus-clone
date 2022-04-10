@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import Slider from './Slider'
 
 function Home() {
     return (
         <Container>
-            Home
+            <Slider />
         </Container>
     )
 };
